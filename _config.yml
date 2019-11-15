@@ -1,0 +1,19 @@
+# variables
+name: GIF Collection
+description: Your meme resources
+google_verification: null
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+defaults:
+  - scope:
+      path: "gif"
+    values:
+      image: true
